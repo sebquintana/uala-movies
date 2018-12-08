@@ -1,21 +1,21 @@
 # uala-movies
 
-Observaciones:
+Observaciones:<br/>
 
-Detallo algunas clases particulares que cumplen las funciones pedidas.
+Detallo algunas clases particulares que cumplen las funciones pedidas.<br/>
 
-UalaMoviesUserAnalyzer: Saber si un cliente mira algo interesante
-UalaMoviesBilling: Efectuar cobro por parte de Uala-movies 
-UalaMoviesLogin: Hacer la funcionalidad para que el usuario entre al sistema.
-UalaProductRecomendator: Poder pedirle recomendaciones al sistema.
-
-
-
-Patrones de diseño:
-Utilice el patron singleton para la creacion del recomendador de productos. Se pueden utilizar mas pero creo que el diseño planteado esta bastante correcto para la consigna dada.
+UalaMoviesUserAnalyzer: Saber si un cliente mira algo interesante<br/>
+UalaMoviesBilling: Efectuar cobro por parte de Uala-movies <br/>
+UalaMoviesLogin: Hacer la funcionalidad para que el usuario entre al sistema.<br/>
+UalaProductRecomendator: Poder pedirle recomendaciones al sistema.<br/>
 
 
-Puntos no resueltos (por tiempo)
-Realizar el unit testing. 
-Especificar patrones de diseño en c aso de haber utilizado y dónde se usaron.
-Diagrama de clases de la solución planteada.
+
+Patrones de diseño:<br/>
+Utilice el patron singleton para la creacion del recomendador de productos. Se pueden utilizar mas pero creo que el diseño planteado esta bastante correcto para la consigna dada.<br/>
+<br/>
+
+Puntos no resueltos (por tiempo)<br/>
+Realizar el unit testing. <br/>
+Especificar patrones de diseño en c aso de haber utilizado y dónde se usaron.<br/>
+Diagrama de clases de la solución planteada.<br/>
