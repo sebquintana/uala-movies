@@ -1,5 +1,6 @@
 package com.uala.uala_movies.model.users;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -16,11 +17,16 @@ public class User {
 	
 	private Date accountCreationDate;
 	
-	private List<Discounts> disucounts;
+	private List<Discounts> discounts;
 	
 	private List<CommunicationChannel> channels;
 	
 	private int peopleOnline;
+	
+	public User() {
+		discounts = new ArrayList<Discounts>();
+		channels = new ArrayList<CommunicationChannel>();
+	}
 	
 	public Subscription getSubscription() {
 		return subscription;
@@ -47,13 +53,17 @@ public class User {
 	}
 
 	public List<Discounts> getDisucounts() {
-		return disucounts;
+		return discounts;
 	}
 
 	public void setDisucounts(List<Discounts> disucounts) {
-		this.disucounts = disucounts;
+		this.discounts = disucounts;
 	}
 
+	public void addDiscount(Discounts discount) {
+		this.discounts.add(discount);
+	}
+	
 	public int getPeopleOnline() {
 		return peopleOnline;
 	}

@@ -28,11 +28,11 @@ public class UalaMoviesBilling {
 		}
 	}
 
-	private double calculateAmount(User user) {
+	public double calculateAmount(User user) {
 		
 		double amount = user.getSubscription().getPrize();
 		
-		for (Discounts discount : discounts) {
+		for (Discounts discount : user.getDisucounts()) {
 			
 			amount -= discount.getDiscountAmount(user);
 		}

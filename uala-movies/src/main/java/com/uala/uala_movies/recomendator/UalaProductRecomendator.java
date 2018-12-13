@@ -39,4 +39,8 @@ public class UalaProductRecomendator {
 		
 		return recommendation;
 	}
+	
+	public void addProduct(Product product) {
+		products.add(product);
+	}
 }

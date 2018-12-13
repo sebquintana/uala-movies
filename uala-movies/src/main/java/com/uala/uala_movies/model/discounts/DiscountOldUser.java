@@ -20,8 +20,8 @@ public class DiscountOldUser implements Discounts {
 	}
 
 	private boolean isOldUser(Date accountCreationDate) {
-		// TODO : Cacular si paso un año desde la fecha de creacion hasta hoy.
-		return false;
+		// TODO : Cacular si paso un año desde la fecha de creacion hasta hoy. Para este caso devuelvo true. 
+		return true;
 	}
 
 }
